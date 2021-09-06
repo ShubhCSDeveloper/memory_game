@@ -10,7 +10,7 @@ const bg_image = require('../assets/bg_image.jpg');
 const MainScreen = () => {
     let data = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
     useEffect(()=>{
-        console.log('data genrated');
+        console.log('data genrated do you understand');
     })
     return (
         <View style={styles.container}>
