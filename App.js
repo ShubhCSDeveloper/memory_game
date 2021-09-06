@@ -8,7 +8,7 @@ import MainScreen from './src/screens/MainScreen';
 
 const App = () => {
   const backAction = () => {
-    Alert.alert("Hold on!", "Are you sure you want to go back?", [
+    Alert.alert("Hold on!", "Are you sure you want to go back? Please", [
       {
         text: "Cancel",
         onPress: () => null,
